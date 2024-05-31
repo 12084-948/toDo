@@ -1,0 +1,114 @@
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.childDiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.childDiv h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.logo img{
+   width: 130px;
+}
+
+.logo p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.addItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.addItems input{
+    width: 50%;
+    padding: 15px;
+    border: 1px solid blue;
+    outline: none;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.addItems i{
+    position: absolute;
+    right: 37.8%;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.addItems i:hover{
+    font-size: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+.showItems{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eachItem{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(86, 205, 244);
+    height: 100%;
+    padding: 15px 5px;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.hi{
+    background-color: red;
+}
+
+.eachItem i{
+    cursor: pointer;
+}
+
+.eachItem i:hover{
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+
+
+.eachItem p{
+    color: white;
+    font-weight: 300;
+}
+
+.showItems button{
+    margin-top: 20px;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    background: transparent;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.showItems button:hover{
+    background-color: red;
+    /* color: black; */
+    transition: 0.2s ease-in-out;
+}
